@@ -1,0 +1,184 @@
+
+
+[class*="col-"]{
+    width: 100%;
+}
+/* navbar start here */
+
+.dotted-hr{
+    margin-bottom: 60px;
+}
+
+
+
+.image{
+    filter: none;
+}
+
+
+
+
+.open{
+    display: block;
+}
+.close{
+    display: block;
+}
+.nav-manu{
+    position: absolute;
+    height: 100vh;
+    width: 300px;
+    top: 0;
+    right: -400px;
+    text-align: left;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;  
+    transition: 1.20s;
+    transition-timing-function: ease-out;
+    background:linear-gradient( rgb(43, 46, 42),rgba(230, 245, 245, 0));
+    -webkit-backdrop-filter: blur(1000px);
+    backdrop-filter: blur(500px);
+    border-radius: 20px;
+
+}
+#open{
+    display: block;
+    width: 50px;
+    color: black;
+    background-color:  rgb(235, 35, 128);
+    margin-right: 50px;
+    padding-left: 15px;
+    padding-right: 40px;
+    height: 40px;
+    margin-top: 25px;
+    font-size: 20px;
+    width: 90px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(235, 35, 128);
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 3px 3px 10px  rgb(235, 35, 128),
+    -3px -3px 10px rgb(235, 35, 128);
+    z-index: 10;
+
+  
+}
+#close{
+    background-color: rgb(13, 46, 236);
+    border: 2px solid rgb(13, 46, 236);
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    width: 60px;
+    color: rgb(222, 238, 238);
+    height: 30px;
+    z-index: 10;
+}
+/* navbar design end */
+/* profile start */
+.profile{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.profile-left{
+    text-align: center;
+    margin: 0px auto;
+}
+.profile-right{
+    margin: 0px auto;
+    text-align: center;
+}
+/* skill css start */
+
+.educational-skills{
+    display: block;
+    /* flex-direction: column; */
+    justify-content: center;
+    justify-items: center;
+    
+
+ }
+ .education{
+    width: 80%;
+ }
+ .skills{
+    width: 80%;
+ }
+ .education h2{
+    width: auto;
+
+ }
+ .skills h2{
+    width: auto;
+ }
+
+ /* contact design form here */
+ input{
+    width: 80%;
+ }
+ 
+ .name-area{
+    position: relative;
+
+ }
+ .name-line{
+    position: absolute;
+    left: 10px;
+    transform: translate(50px, 0%);
+
+ }
+ input:focus + .name-line,
+input:valid + .name-line{
+    position: absolute;
+    left: 10px;
+    transform: translate(50px,-30px) scale(0.90);
+
+}
+.mail-area{
+    position: relative;
+}
+.mail-line{
+    position: absolute;
+    left: 10px;
+    transform: translate(50px, 0%);
+}
+input:focus + .mail-line,
+input:valid + .mail-line{
+    position: absolute;
+    left: 10px;
+    transform: translate(50px,-30px) scale(0.90);
+
+}
+.message-area{
+    position: relative;
+}
+.message-line{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transform: translate(30px, 50px);
+}
+.message:focus + .message-line{
+    position: absolute;
+    left: 10px;
+    transform: translate(30px,10px) scale(0.90);
+
+}
+.message-btn{
+    float:inline-start;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+h2{
+    margin-top: 100px;
+}
