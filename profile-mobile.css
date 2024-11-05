@@ -180,10 +180,13 @@ input:valid + .mail-line{
     justify-items: center;
     justify-content: center;
     margin-left: 80px;
-    margin-bottom: 100px;
+    
 }
 .social-media{
     width: 95%;
+}
+.telegram{
+    display: none;
 }
 h2{
     width: 60%;
