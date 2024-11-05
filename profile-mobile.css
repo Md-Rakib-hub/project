@@ -184,11 +184,14 @@ input:valid + .mail-line{
 }
 .social-media{
     width: 95%;
+    
+}
+.button{
+    margin-top: 50px;
 }
 .telegram{
     display: none;
 }
 h2{
-    width: 60%;
-    margin: 0 auto;
+    display: none;
 }
