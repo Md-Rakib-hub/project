@@ -124,7 +124,9 @@
  input{
     width: 80%;
  }
- 
+ textarea{
+    width: 80%;
+ }
  .name-area{
     position: relative;
 
@@ -162,7 +164,7 @@ input:valid + .mail-line{
 }
 .message-line{
     position: absolute;
-    left: 10px;
+    left: 20px;
     top: 10px;
     transform: translate(30px, 50px);
 }
